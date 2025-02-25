@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+  font-family: 'Catchy Mager';
+  src: url('/fonts/CatchyMager-Normal.eot');
+  src: local('Catchy Mager'), local('CatchyMager-Normal'),
+       url('/fonts/CatchyMager-Normal.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/CatchyMager-Normal.woff2') format('woff2'),
+       url('/fonts/CatchyMager-Normal.woff') format('woff'),
+       url('/fonts/CatchyMager-Normal.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'Coco Gothic';
+    src: local('Coco Gothic Bold'), local('Coco-Gothic-Bold'),
+        url('/CocoGothic-Bold/CocoGothic-Bold.woff2') format('woff2'),
+        url('/CocoGothic-Bold/CocoGothic-Bold.woff') format('woff'),
+        url('/CocoGothic-Bold/CocoGothic-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+.form-container {
+  width: 80%;
+  max-width: 600px;
+  min-width: 300px;
+  margin: auto;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background: #f9f9f9;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-container input,
+.form-container textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.form-container button {
+  padding: 10px;
+  background-color: #d1a970c7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-container span {
+  display: block;
+  margin-top: 10px;
+  color: green;
+}
