@@ -39,7 +39,7 @@ export const Navbar = () => {
                             </ul>
                         </li>
                         <li>
-                            <Link href="#" className="block py-2 px-3 text-customBrown rounded-sm hover:bg-gray-100 md:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-gray md:dark:hover:bg-transparent">A Propos de Nous</Link>
+                            <Link href="/about" className="block py-2 px-3 text-customBrown rounded-sm hover:bg-gray-100 md:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-gray md:dark:hover:bg-transparent">A Propos</Link>
                         </li>
                         <li>
                             <Link href="#" className="block py-2 px-3 text-customBrown rounded-sm hover:bg-gray-100 md:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-gray md:dark:hover:bg-transparent">Nos Tarifs</Link>
