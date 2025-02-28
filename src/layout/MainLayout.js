@@ -6,9 +6,7 @@ import React from 'react';
 export const MainLayout = ({children, title, description}) => {
     return (
         <>
-        {/* 🏷️ Gestion dynamique du titre et de la description */}
         <DynamicHead title={title} description={description} />
-        {/* 🏗️ Layout global */}
         <Navbar />
             <main>{children}</main>
         <Footer />

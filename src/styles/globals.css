@@ -25,23 +25,23 @@ body {
   font-family: 'Catchy Mager';
   src: url('/fonts/CatchyMager-Normal.eot');
   src: local('Catchy Mager'), local('CatchyMager-Normal'),
-       url('/fonts/CatchyMager-Normal.eot?#iefix') format('embedded-opentype'),
-       url('/fonts/CatchyMager-Normal.woff2') format('woff2'),
-       url('/fonts/CatchyMager-Normal.woff') format('woff'),
-       url('/fonts/CatchyMager-Normal.ttf') format('truetype');
+    url('/fonts/CatchyMager-Normal.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/CatchyMager-Normal.woff2') format('woff2'),
+    url('/fonts/CatchyMager-Normal.woff') format('woff'),
+    url('/fonts/CatchyMager-Normal.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-    font-family: 'Coco Gothic';
-    src: local('Coco Gothic Bold'), local('Coco-Gothic-Bold'),
-        url('/CocoGothic-Bold/CocoGothic-Bold.woff2') format('woff2'),
-        url('/CocoGothic-Bold/CocoGothic-Bold.woff') format('woff'),
-        url('/CocoGothic-Bold/CocoGothic-Bold.ttf') format('truetype');
-    font-weight: 700;
-    font-style: normal;
-  }
+  font-family: 'Coco Gothic';
+  src: local('Coco Gothic Bold'), local('Coco-Gothic-Bold'),
+    url('/CocoGothic-Bold/CocoGothic-Bold.woff2') format('woff2'),
+    url('/CocoGothic-Bold/CocoGothic-Bold.woff') format('woff'),
+    url('/CocoGothic-Bold/CocoGothic-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
 
 .form-container {
   width: 80%;

@@ -26,7 +26,7 @@ export const Navbar = () => {
                             <Link href="/nostherapies" className="block py-2 px-3 text-customBrown rounded-sm hover:bg-gray-100 md:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-gray md:dark:hover:bg-transparent">
                                 Nos Thérapies
                             </Link>
-                            <ul className="absolute left-0 hidden mt-2 space-y-2 bg-customBeige text-black group-hover:block">
+                            <ul className="absolute left-0 hidden mt-2 space-y-2 bg-customBeige text-black group-hover:flex">
                                 <li>
                                     <Link href="/Thérapie de Couples" className="block py-2 px-4 text-customBrown hover:bg-gray-200">Thérapie de Couples</Link>
                                 </li>
