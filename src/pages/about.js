@@ -6,7 +6,7 @@ import Horaire from '@/components/Horaire';
 
 export default function about() {
     return (
-        <MainLayout title="A Propos" description="Bienvenue sur notre site" >
+        <MainLayout title="Apropos" description="Bienvenue sur notre site" >
             <div className="bg-customBeige">
                 <div className="min-h-full p-10 flex flex-col items-center justify-center text-center bg-customBeige">
                     <h1 className="text-extrabold my-40 text-9xl font-catchy text-customBrown text-center tracking-wide">A PROPOS</h1>
@@ -18,7 +18,7 @@ export default function about() {
                             Nous sommes depuis janvier 2021, inscrites dans un parcours de formation à l’approche systémique, à la thérapie familiale et de couple auprès de l’Institut d’Études de la Famille de Lille. Ces années de formation sont validées par une certification et l’inscription à l’EFTA-TIC (Chambre Européenne des Instituts de Formation en Thérapie Familiale).</p>
                     </div>
                 </div>
-                <div className="flex flex-col items-center justify-center text-center bg-customBeige">
+                <div className="flex flex-col items-center justify-center text-center bg-customBeige2">
                     <p className="text-extrabold mt-20 mb-20 text-6xl font-catchy text-customBrown text-center tracking-wide">Isabelle Becker Le Meteil</p>
                     <div className="max-w-6xl mx-auto mb-20 grid grid-cols-1 md:grid-cols-2 gap-12">
                         <div>
