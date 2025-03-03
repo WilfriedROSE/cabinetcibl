@@ -6,7 +6,7 @@ import Horaire from '@/components/Horaire';
 
 export default function about() {
     return (
-        <MainLayout title="Apropos" description="Bienvenue sur notre site" >
+        <MainLayout title="A Propos" description="Bienvenue sur notre site" >
             <div className="bg-customBeige">
                 <div className="min-h-full p-10 flex flex-col items-center justify-center text-center bg-customBeige">
                     <h1 className="text-extrabold my-40 text-9xl font-catchy text-customBrown text-center tracking-wide">A PROPOS</h1>

@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-google-maps/api": "^2.20.6",
     "font-awesome": "^4.7.0",
     "mini-css-extract-plugin": "^2.9.2",
     "next": "15.1.7",

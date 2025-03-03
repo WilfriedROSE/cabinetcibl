@@ -34,7 +34,7 @@ const teamprices = [
 
 export default function tarifs() {
     return (
-        <MainLayout title="tarifs" description="Bienvenue sur notre site" >
+        <MainLayout title="Nos Tarifs" description="Bienvenue sur notre site" >
             <div className="bg-customBeige">
                 <div className="min-h-full p-10 flex flex-col items-center justify-center text-center bg-customBeige">
                     <h1 className="text-extrabold my-40 text-9xl font-catchy text-customBrown text-center tracking-wide">NOS TARIFS</h1>
@@ -86,11 +86,6 @@ export default function tarifs() {
                             En cas d’annulation ou de demande de déplacement de rendez-vous, je vous invite à nous prévenir 48h à l’avance. En- deçà de ces 48h, le règlement de la consultation sera dû.
                         </p>
                     </div>
-                </div>
-                <div className="flex flex-col items-center justify-center text-center bg-customBeige p-20">
-                    <h1 className="text-extrabold text-7xl font-catchy text-customBrown text-center tracking-wide">Contactez-Nous</h1>
-                    <p className="text-2xl mt-5 mb-10 font-coco text-center text-customBrown">Vous avez des questions ou vous souhaitez prendre Rendez-vous ?</p>
-                    <ContactForm />
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-2 max-w-10xl p-4 bg-customBeige">
                     <Adress />

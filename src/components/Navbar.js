@@ -26,15 +26,15 @@ export const Navbar = () => {
                             <Link href="/nostherapies" className="block py-2 px-3 text-customBrown rounded-sm hover:bg-gray-100 md:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-gray md:dark:hover:bg-transparent">
                                 Nos Thérapies
                             </Link>
-                            <ul className="absolute left-0 hidden mt-2 space-y-2 bg-customBeige text-black group-hover:flex">
+                            <ul className="absolute left-0 hidden mt-2 space-y-2 bg-customBeige text-customBrown group-hover:flex">
                                 <li>
-                                    <Link href="/Thérapie de Couples" className="block py-2 px-4 text-customBrown hover:bg-gray-200">Thérapie de Couples</Link>
+                                    <Link href="/Thérapie de Couples" className="block py-2 px-4 font-thin hover:bg-gray-200">Thérapie de Couples</Link>
                                 </li>
                                 <li>
-                                    <Link href="/Thérapie de Familles" className="block py-2 px-4 text-customBrown hover:bg-gray-200">Thérapie de Familles</Link>
+                                    <Link href="/Thérapie de Familles" className="block py-2 px-4 font-thin hover:bg-gray-200">Thérapie de Familles</Link>
                                 </li>
                                 <li>
-                                    <Link href="/Accompagnement d'équipes" className="block py-2 px-4 text-customBrown hover:bg-gray-200">Accompagnement d'équipes</Link>
+                                    <Link href="/Accompagnement d'équipes" className="block py-2 px-4 font-thin hover:bg-gray-200">Accompagnement d'équipes</Link>
                                 </li>
                             </ul>
                         </li>
@@ -45,7 +45,7 @@ export const Navbar = () => {
                             <Link href="/tarifs" className="block py-2 px-3 text-customBrown rounded-sm hover:bg-gray-100 md:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-gray md:dark:hover:bg-transparent">Nos Tarifs</Link>
                         </li>
                         <li>
-                            <Link href="#" className="block py-2 px-3 text-customBrown rounded-sm hover:bg-gray-100 md:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-gray md:dark:hover:bg-transparent">Nous Contacter</Link>
+                            <Link href="/contact" className="block py-2 px-3 text-customBrown rounded-sm hover:bg-gray-100 md:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-gray md:dark:hover:bg-transparent">Nous Contacter</Link>
                         </li>
                     </ul>
                 </div>
