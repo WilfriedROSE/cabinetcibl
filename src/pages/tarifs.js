@@ -33,7 +33,7 @@ const teamprices = [
 
 export default function tarifs() {
     return (
-        <MainLayout title="Nos Tarifs" description="Bienvenue sur notre site">
+        <MainLayout title="Nos Tarifs" description="Bienvenue sur la page Nos Tarifs de notre site">
             <div className="bg-customBeige">
                 <div className="min-h-full p-10 flex flex-col items-center justify-center text-center bg-customBeige">
                     <h1 className="text-extrabold my-40 text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-catchy text-customBrown text-center tracking-wide">NOS TARIFS</h1>

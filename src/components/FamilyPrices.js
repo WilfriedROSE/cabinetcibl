@@ -8,7 +8,14 @@ const FamilyPrice = ({ title, description, image }) => {
                 <h3 className="text-xl font-semibold text-customBrown mb-4">{title}</h3>
                 <p className="text-customBrown text-sm text-justify">{description}</p>
                 <p className="text-customBrown text-sm mt-5">Prix : 80€</p>
-                <a href="#" className="mt-4 inline-block text-customBrown font-semibold hover:underline">Réservez un rendez-vous</a>
+                <a
+                    href="https://calendar.google.com/calendar/u/2/r?pli=1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-4 inline-block bg-customBrown text-white font-semibold px-4 py-2 rounded-lg hover:bg-opacity-80 transition"
+                >
+                    Réservez un rendez-vous
+                </a>
             </div>
         </div>
     );

@@ -6,6 +6,8 @@ import Adress from '@/components/Adress';
 import Horaire from '@/components/Horaire';
 import React from 'react';
 import { MainLayout } from '@/layout/MainLayout';
+import Link from 'next/link';
+
 
 const services = [
   {
@@ -27,7 +29,7 @@ const services = [
 
 export default function HomePage() {
   return (
-    <MainLayout title="Accueil" description="Bienvenue sur notre site">
+    <MainLayout title="Accueil" description="Bienvenue sur la page principale de notre site">
       <div className="bg-customBeige">
         <div className="min-h-full p-4 md:p-10 flex flex-col items-center text-center">
           <h1 className="text-4xl md:text-6xl lg:text-9xl font-catchy font-extrabold text-customBrown tracking-wide">
@@ -42,16 +44,16 @@ export default function HomePage() {
           <h2 className="text-2xl md:text-4xl lg:text-5xl font-catchy text-customBrown">
             Accompagnement d'équipes
           </h2>
-          <div className="mt-10">
-            <a href="En Savoir Plus" className="bg-white text-xl font-coco text-customBrown px-6 py-3 rounded-lg shadow-md hover:bg-gray-200 transition">
+          <Link href="/nostherapies" className="mt-10">
+            <span className="bg-white text-xl font-coco text-customBrown px-6 py-3 rounded-lg shadow-md hover:bg-gray-200 transition cursor-pointer">
               En savoir plus
-            </a>
-          </div>
+            </span>
+          </Link>
         </div>
         <div className="flex flex-col items-center text-center p-4 md:p-10 bg-customBeige2">
           <p className="text-lg md:text-xl lg:text-2xl font-catchy text-customDarkBrown max-w-4xl">
-            Nous vous accompagnons avec bienveillance pour mieux comprendre vos relations familiales et de couple. 
-            Dans un espace d’écoute et d’échange, nous explorons ensemble votre histoire, vos interactions et vos besoins 
+            Nous vous accompagnons avec bienveillance pour mieux comprendre vos relations familiales et de couple.
+            Dans un espace d’écoute et d’échange, nous explorons ensemble votre histoire, vos interactions et vos besoins
             afin de mettre en lumière vos ressources et vous aider à avancer vers des relations plus apaisées et épanouissantes.
           </p>
         </div>

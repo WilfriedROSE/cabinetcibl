@@ -6,7 +6,7 @@ import Horaire from '@/components/Horaire';
 
 export default function Nostherapies() {
     return (
-        <MainLayout title="Nos Thérapies" description="Bienvenue sur notre site">
+        <MainLayout title="Nos Thérapies" description="Bienvenue sur la page Nos Thérapies de notre site">
             <div className="bg-customBeige">
                 <div className="min-h-full p-10 flex flex-col items-center justify-center text-center bg-customBeige">
                     <h1 className="text-extrabold mt-20 sm:mt-40 text-5xl sm:text-6xl md:text-7xl lg:text-9xl font-catchy text-customBrown text-center tracking-wide">
@@ -45,7 +45,7 @@ export default function Nostherapies() {
                         </ul>
                     </div>
                 </section>
-                <section className="flex flex-col items-center justify-center text-center bg-customBeige2 py-16 sm:py-20">
+                <section id="famille" className="flex flex-col items-center justify-center text-center bg-customBeige2 py-16 sm:py-20">
                     <p className="text-extrabold text-3xl sm:text-4xl md:text-5xl font-catchy text-customBrown tracking-wide mb-6 sm:mb-10">
                         Thérapie de Famille
                     </p>
@@ -55,12 +55,11 @@ export default function Nostherapies() {
                                 Avec notre accompagnement, vous pourrez exprimer vos modes de communication, prendre conscience de votre environnement et identifier les ressources et compétences sur lesquelles vous pouvez vous appuyer. Nous chercherons à comprendre comment vos interactions influencent certaines difficultés, afin d’accompagner les changements dont vous avez besoin.
                             </p>
                             <ul className="ml-4 sm:ml-6 list-disc mb-6 sm:mb-10 text-base sm:text-lg text-justify leading-relaxed font-CocoGothic text-customBrown tracking-wide">
-                                <li>Accueillir la famille et tout membre en demande de compréhension des enjeux relationnels.</li>
-                                <li>Accompagner la famille dans l’expression de son fonctionnement familial.</li>
-                                <li>Explorer le contexte et l’environnement de la famille.</li>
-                                <li>Repérer les ressources et les compétences.</li>
-                                <li>Identifier comment les relations interindividuelles, au sein de la famille, agissent sur l’apparition ou la disparition des symptômes.</li>
-                                <li>Identifier et accompagner les demandes de changement.</li>
+                                <li>Votre famille rencontre des problèmes relationnels et des difficultés dans la communication.</li>
+                                <li>Votre famille traverse une période de "crise de vie" ou de "transitions familiale" ( divorce, remariage, recomposition familiale, arrivée d'un enfant ou d'un nouveau membre dans la famille, départ d'un ou des enfants...).</li>
+                                <li>Votre famille vit un évènement traumatique ( perte et deuil d'un membre de la famille, maladie, handicap, troubles psychiques affectant un ou plusieurs membres de la famille).</li>
+                                <li>Votre famille est confrontée à des difficultés de  santé mentale et/ou de dépendance ( trouble alimentaire, addiction, anxiété, troubles dépressifs...).</li>
+                                <li>Vous souhaitez mener une réflexion sur votre parentalité et vos modalités d'éducation ( conflits liés aux choix éducatifs, sentiment d'incompréhension générationnelle...).</li>
                             </ul>
                         </div>
                         <div>
@@ -68,7 +67,7 @@ export default function Nostherapies() {
                         </div>
                     </div>
                 </section>
-                <section className="flex flex-col items-center justify-center text-center bg-customBeige py-16 sm:py-20">
+                <section id="couple" className="flex flex-col items-center justify-center text-center bg-customBeige py-16 sm:py-20">
                     <p className="text-extrabold text-3xl sm:text-4xl md:text-5xl font-catchy text-customBrown tracking-wide mb-6 sm:mb-10">
                         Thérapie de Couple
                     </p>
@@ -89,7 +88,7 @@ export default function Nostherapies() {
                         </div>
                     </div>
                 </section>
-                <section className="flex flex-col items-center justify-center text-center bg-customBeige2 py-16 sm:py-20">
+                <section id="equipe" className="flex flex-col items-center justify-center text-center bg-customBeige2 py-16 sm:py-20">
                     <p className="text-extrabold text-3xl sm:text-4xl md:text-5xl font-catchy text-customBrown tracking-wide mb-6 sm:mb-10">
                         Accompagnement d'équipes
                     </p>

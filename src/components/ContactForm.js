@@ -9,7 +9,7 @@ function ContactForm() {
     setResult("Envoi en cours...");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "YOUR_ACCESS_KEY_HERE");
+    formData.append("access_key", "5a714303-32ee-4e0c-b9f2-a85797080481");
 
     try {
       const response = await fetch("https://api.web3forms.com/submit", {
@@ -22,7 +22,7 @@ function ContactForm() {
         setResult("Formulaire soumis avec succès !");
         event.target.reset();
       } else {
-        setResult(data.message);
+        setResult(`Erreur: ${data.message}`);
       }
     } catch (error) {
       console.log("Erreur lors de l'envoi du formulaire:", error);
