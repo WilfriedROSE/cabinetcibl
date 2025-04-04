@@ -48,7 +48,6 @@ export const Navbar = () => {
                                     </svg>
                                 </button>
                             </div>
-
                             <ul className={`${isDropdownOpen ? "block" : "hidden"} md:absolute left-0 mt-2 bg-customBeige shadow-lg rounded-md w-48 md:group-hover:block`}>
                                 <li>
                                     <Link href="/nostherapies#couple" className="block py-2 px-4 text-customBrown hover:bg-gray-200">
@@ -67,7 +66,6 @@ export const Navbar = () => {
                                 </li>
                             </ul>
                         </li>
-
                         <li>
                             <Link href="/about" className="block py-2 px-3 text-customBrown">
                                 À Propos
