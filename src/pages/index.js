@@ -14,18 +14,22 @@ const services = [
     title: 'Thérapie de Famille',
     description: `Avec notre accompagnement, vous pourrez exprimer vos modes de communication...`,
     image: '/images/fille.jpg',
+    link: '/nostherapies#famille',
   },
   {
     title: "Accompagnement d'équipes",
     description: `Nous vous accueillons dans un espace d’échange serein...`,
     image: '/images/therapiedegroupe.jpg',
+    link: '/nostherapies#equipe',
   },
   {
     title: 'Thérapie de Couple',
     description: `En thérapie de couple, nous vous accueillons dans un espace bienveillant...`,
     image: '/images/cabinet.webp',
+    link: '/nostherapies#couple',
   },
 ];
+
 
 export default function HomePage() {
   return (
