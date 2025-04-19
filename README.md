@@ -69,6 +69,6 @@ Ce site est pensé comme une **base évolutive**, avec de nombreuses possibilit�
 
 ---
 
-> ✉️ Pour toute question technique ou collaboration :
+> Pour toute question technique ou collaboration :
 > **Wilfried Rose** – [LinkedIn](https://www.linkedin.com/in/wilfriedrose) | [Github](https://github.com/wilfriedrose) | [Email](wilfriedrose67@gmail.com)
 
