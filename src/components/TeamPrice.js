@@ -9,7 +9,7 @@ const TeamPrice = ({ title, description, image }) => {
                 <p className="text-customBrown text-sm text-justify">{description}</p>
                 <p className="text-customBrown text-sm mt-5">Prix : 100€</p>
                 <a
-                    href="https://calendar.google.com/calendar/u/2/r?pli=1"
+                    href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2rGIx-y_R8KQPJZPudkX-A0pUwJ6C6LDfIPlfvJ11pvi6zANpsJ3JFY7_nrdMPlfqyzDS0XVWp"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mt-4 inline-block bg-customBrown text-white font-semibold px-4 py-2 rounded-lg hover:bg-opacity-80 transition"

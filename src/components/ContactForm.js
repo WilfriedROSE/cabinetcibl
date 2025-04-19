@@ -42,7 +42,7 @@ function ContactForm() {
             type="text"
             id="name"
             name="name"
-            className="w-full p-3 border border-customBrown rounded-lg focus:outline-none focus:ring-2 focus:ring-customBrown"
+            className="w-full text-black p-3 border border-customBrown rounded-lg focus:outline-none focus:ring-2 focus:ring-customBrown"
             required
           />
         </div>
@@ -55,7 +55,7 @@ function ContactForm() {
             type="email"
             id="email"
             name="email"
-            className="w-full p-3 border border-customBrown rounded-lg focus:outline-none focus:ring-2 focus:ring-customBrown"
+            className="w-full text-black p-3 border border-customBrown rounded-lg focus:outline-none focus:ring-2 focus:ring-customBrown"
             required
           />
         </div>
@@ -67,7 +67,7 @@ function ContactForm() {
           <textarea
             id="message"
             name="message"
-            className="w-full p-3 border border-customBrown rounded-lg focus:outline-none focus:ring-2 focus:ring-customBrown"
+            className="w-full text-black p-3 border border-customBrown rounded-lg focus:outline-none focus:ring-2 focus:ring-customBrown"
             required
           ></textarea>
         </div>
