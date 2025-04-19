@@ -54,12 +54,12 @@ Le cabinet est animé par :
 76600 Le Havre – France
 
 **Téléphone** : 07 66 94 34 49
-**Email** : cibl.therapie@gmail.com
+**Email** : <cibl.therapie@gmail.com>
 
 ## ⏳ Historique du projet
 
-- 🛠️ Début de la refonte : **2024**
-- 🚀 Mise en ligne : **Début 2025**
+- 🛠️ Début de la refonte : **Décembre 2024**
+- 🚀 Mise en ligne : **Mars 2025**
 - 📌 En évolution : oui
 
 ## 🙏 Remerciements
