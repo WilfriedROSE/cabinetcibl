@@ -53,7 +53,7 @@ export default function Nostherapies() {
                             <p className="my-6 sm:my-8 text-base sm:text-lg text-justify leading-relaxed font-cocoGothic text-customBrown tracking-wide">
                                 Avec notre accompagnement, vous pourrez exprimer vos modes de communication, prendre conscience de votre environnement et identifier les ressources et compétences sur lesquelles vous pouvez vous appuyer. Nous chercherons à comprendre comment vos interactions influencent certaines difficultés, afin d’accompagner les changements dont vous avez besoin.
                             </p>
-                            <ul className="list-disc mx-6 sm:mx-12 md:mx-48 text-base sm:text-lg text-justify leading-relaxed font-CocoGothic text-customBrown tracking-wide">
+                            <ul className="list-disc mx-6 sm:mx-12 md:mx-48 mb-10 text-base sm:text-lg text-justify leading-relaxed font-CocoGothic text-customBrown tracking-wide">
                                 <li>Votre famille rencontre des problèmes relationnels et des difficultés dans la communication.</li>
                                 <li>Votre famille traverse une période de "crise de vie" ou de "transitions familiale" ( divorce, remariage, recomposition familiale, arrivée d'un enfant ou d'un nouveau membre dans la famille, départ d'un ou des enfants...).</li>
                                 <li>Votre famille vit un évènement traumatique ( perte et deuil d'un membre de la famille, maladie, handicap, troubles psychiques affectant un ou plusieurs membres de la famille).</li>
@@ -73,7 +73,7 @@ export default function Nostherapies() {
                             <p className="my-6 sm:my-8 text-base sm:text-lg text-justify leading-relaxed font-cocoGothic text-customBrown tracking-wide">
                                 En thérapie de couple, nous vous accueillons dans un espace bienveillant où votre parole peut s’exprimer librement. Ensemble, nous prenons le temps de comprendre votre demande et d’analyser les dynamiques qui façonnent votre relation. À travers nos échanges, vous pourrez explorer votre mode de communication, identifier vos interactions et mieux comprendre ce qui influence votre couple. Notre rôle est de vous accompagner dans vos demandes de changement, en vous aidant à ajuster votre manière d’interagir afin de retrouver un équilibre plus serein et harmonieux dans votre relation.
                             </p>
-                            <ul className="list-disc mx-6 sm:mx-12 md:mx-48 text-base sm:text-lg text-justify leading-relaxed font-CocoGothic text-customBrown tracking-wide">
+                            <ul className="list-disc mx-6 sm:mx-12 md:mx-48 mb-10 text-base sm:text-lg text-justify leading-relaxed font-CocoGothic text-customBrown tracking-wide">
                                 <li>Accueillir le couple et sa demande.</li>
                                 <li>Offrir un espace de parole et d’élaboration avec pour objectif de mesurer les interactions relationnelles.</li>
                                 <li>Explorer le contexte et l’environnement du couple, son histoire, sa construction...</li>
@@ -92,7 +92,7 @@ export default function Nostherapies() {
                             <p className="my-6 sm:my-8 text-base sm:text-lg text-justify leading-relaxed font-cocoGothic text-customBrown tracking-wide">
                                 Nous vous accueillons dans un espace d’échange serein, nous prenons le temps de comprendre votre fonctionnement collectif et d’analyser les dynamiques relationnelles qui influencent votre travail au quotidien. À travers nos échanges, vous pourrez explorer vos modes de communication. Notre rôle est de vous accompagner, en vous aidant à ajuster vos interactions, vos modes de collaboration afin de renforcer la cohésion, la motivation et l’efficacité de votre équipe.
                             </p>
-                            <ul className="list-disc mx-6 sm:mx-12 md:mx-48 text-base sm:text-lg text-justify leading-relaxed font-CocoGothic text-customBrown tracking-wide">
+                            <ul className="list-disc mx-6 sm:mx-12 md:mx-48 mb-10 text-base sm:text-lg text-justify leading-relaxed font-CocoGothic text-customBrown tracking-wide">
                                 <li>Analyse des dynamiques relationnelles au sein de l’équipe.</li>
                                 <li>Renforcer la cohésion et la communication au sein du groupe.</li>
                                 <li>Évaluation des ressources internes de l’équipe.</li>
