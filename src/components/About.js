@@ -3,9 +3,9 @@ import Image from "next/image";
 function About() {
     return (
         <div className="bg-customDarkBeige py-16 px-4 md:px-8">
-            <h2 className="text-extrabold text-3xl md:text-5xl lg:text-7xl font-catchy text-customBrown text-center tracking-wide mt-10 mb-10">A PROPOS</h2>
-            <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
-                <div className="mt-10 md:mt-20">
+            <h2 className="text-extrabold text-3xl md:text-5xl lg:text-7xl font-catchy text-customBrown text-center tracking-wide mb-10">A PROPOS</h2>
+            <div className="max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div className="md:mt-20">
                     <h3 className="text-2xl md:text-3xl font-coco text-customBrown">Isabelle Becker Le Meteil</h3>
                     <p className="text-customBrown mt-2 text-base md:text-lg">Diplômée de l'ENPJJ en 2002 et exerçant en tant qu'éducatrice dans le champ du médico-social.</p>
                     <h3 className="text-2xl md:text-3xl font-coco text-customBrown mt-10 md:mt-20">Caroline Leger</h3>

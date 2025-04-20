@@ -48,21 +48,21 @@ export default function HomePage() {
           <h2 className="text-2xl md:text-4xl lg:text-5xl font-catchy text-customBrown">
             Accompagnement d'équipes
           </h2>
-          <Link href="/nostherapies" className="mt-10">
+          <Link href="/nostherapies" className="mt-10 mb-10">
             <span className="bg-white text-xl font-coco text-customBrown px-6 py-3 rounded-lg shadow-md hover:bg-gray-200 transition cursor-pointer">
               En savoir plus
             </span>
           </Link>
         </div>
         <div className="flex flex-col items-center text-center p-4 md:p-10 bg-customBeige2">
-          <p className="text-lg md:text-xl lg:text-2xl font-catchy text-customDarkBrown max-w-4xl">
+          <p className="mt-10 mb-10 text-lg md:text-xl lg:text-2xl font-catchy text-customDarkBrown max-w-4xl">
             Nous vous accompagnons avec bienveillance pour mieux comprendre vos relations familiales et de couple.
             Dans un espace d’écoute et d’échange, nous explorons ensemble votre histoire, vos interactions et vos besoins
             afin de mettre en lumière vos ressources et vous aider à avancer vers des relations plus apaisées et épanouissantes.
           </p>
         </div>
         <div className="flex flex-col items-center text-center p-4 md:p-10">
-          <h2 className="text-4xl md:text-6xl font-catchy font-extrabold text-customBrown tracking-wide">
+          <h2 className="mt-10 text-4xl md:text-6xl font-catchy font-extrabold text-customBrown tracking-wide">
             Nos Thérapies
           </h2>
         </div>
