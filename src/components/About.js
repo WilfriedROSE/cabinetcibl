@@ -14,7 +14,10 @@ function About() {
                 <div className="flex flex-col items-center">
                     <Image src="/images/isa.jpg" width={400} height={300} alt="photo d'isabelle et caroline" className="rounded-lg shadow-lg w-full max-w-md" />
                     <div className="mt-10 border-2 border-customBrown p-6 max-w-2xl text-center">
-                        <p className="font-coco text-customBrown text-base md:text-lg">Nous sommes depuis janvier 2021, inscrites dans un parcours de formation à l’approche systémique, à la thérapie familiale et de couple auprès de l’Institut d’Études de la Famille de Lille. Ces années de formation sont validées par une certification et l’inscription à l’EFTA-TIC (Chambre Européenne des Instituts de Formation en Thérapie Familiale).</p>
+                        <p className="font-coco text-customBrown text-base md:text-lg">Thérapeutes de famille et de couple, nous avons suivi un parcours de formation à l’approche systémique de quatre années auprès de l’Institut d’Études de la Famille de Lille.<br/> 
+                        Ces années de formation ont été validées par une certification et l’inscription à l’EFTA-TIC (Chambre Européenne des Instituts de Formation en Thérapie Familiale).<br/>
+                        Notre pratique repose sur la co-intervention : deux thérapeutes de famille et de couple à votre écoute, pour une vision élargie et un soutien plus profond.<br/>
+                        Cette approche permet de multiplier les regards et d’enrichir les échanges, au bénéfice de votre démarche.</p>
                     </div>
                 </div>
             </div>

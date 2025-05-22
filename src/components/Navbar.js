@@ -9,9 +9,7 @@ export const Navbar = () => {
     return (
         <nav className="border-gray-50 bg-customBeige relative z-50">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-                <Link href="/" className="flex items-center space-x-3">
-                    <Image src="/images/LogoCIBLsansarriereplan.png" width={60} height={60} alt="Logo" />
-                </Link>
+                    <Image src="/images/LogoCIBLsansarriereplan.png" width={90} height={90} alt="Logo" /> 
                 <button
                     onClick={() => setIsMenuOpen(!isMenuOpen)}
                     className="md:hidden p-2 w-10 h-10 text-gray-500 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-200"

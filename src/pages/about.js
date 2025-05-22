@@ -22,8 +22,19 @@ export default function About() {
                     </h2>
                     <div className="max-w-4xl mx-auto mt-6 mb-14">
                         <p className="text-lg sm:text-xl text-justify leading-relaxed font-cocoGothic text-customBrown tracking-wide">
-                            Nous sommes deux professionnelles intervenant auprès des familles depuis plus de 20 ans que nous accompagnons dans la compréhension et la résolution de leurs difficultés. Sensibles à une approche systémique, nous nous sommes formées durant quatre années auprès de l'Institut d'Etudes de la Famille de Lille et nous exerçons en co-intervention en qualité de  thérapeutes de famille et de couple.
-                            Notre approche et notre formation nous permet de proposer des interventions sur tous les systèmes humains, la famille, le couple et les équipes professionnelles.                        </p>
+                            Depuis plus de 20 ans, nous intervenons dans le secteur médico-social auprès de familles. Nous avons tout au long de notre parcours pu intervenir dans le cadre de l’évaluation et de l’accompagnement de situations familiales diverses, toutes singulières et le plus souvent traversant une période de crise.<br />
+                            <br/>C’est dans le cadre de nos interventions, qui nous ont amenés à travailler ensemble, que nous avons mesuré l’intérêt de travailler avec les familles dans leur ensemble et de s’attacher à accompagner les demandes de changement du fonctionnement familial.<br />
+                            <br/>Sensibles à une approche systémique, nous nous sommes formées durant quatre années auprès de l'Institut d'Etudes de la Famille de Lille et nous exerçons en co-intervention en qualité de  thérapeutes de famille et de couple.<br />
+                            <br/>Ainsi, nous proposons une intervention enrichie de cette sensibilité afin d’offrir une évaluation portée sur la dimension relationnelle et qui interroge la fonction du symptôme ou d’un comportement répétitif dans le contexte d’un système humain.<br />
+                            <br/>Il s’agit de pouvoir travailler auprès des familles et des couples au regard de ce qu’ils décrivent de leur fonctionnement, de leurs règles, en s’appuyant sur leurs ressources et compétences, dans un travail partagé d’explicitation.<br />
+                            <br/>Dans le cadre de cette approche, l’attention peut se porter sur les contextes dans lequel se développent les difficultés ou la maladie d’une personne, plutôt que la tentative fréquemment infructueuse pour faire disparaître son symptôme.<br />
+                            <br/>Il s’agit ainsi avec chacun des membres du système (famille ou couple) de saisir les enjeux relationnels en cours, d’identifier les freins aux désirs de changement et d’expérimenter avec eux leurs capacités d’adaptation.<br />
+                            <br/>Ainsi, l’objectif de cet accompagnement familial est de permettre de développer un potentiel créatif et des modalités auto curatives trop fréquemment insoupçonnées ou sous utilisées.
+                            <br/> </p>
+                        <p className="text-extrabold  sm:text-xl text-justify leading-relaxed font-catchy text-customBrown tracking-wide">
+                        <br/>Il s’agit d’aider « La famille à être l’agent de son propre changement »
+                            (Siegi HIRSCH)
+                        </p>
                     </div>
                 </div>
                 <div className="bg-customBeige2 py-20">

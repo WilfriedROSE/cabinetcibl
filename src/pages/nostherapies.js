@@ -51,14 +51,19 @@ export default function Nostherapies() {
                     </p>
                     <div className="mx-auto px-6">
                             <p className="my-6 sm:my-8 text-base sm:text-lg text-justify leading-relaxed font-cocoGothic text-customBrown tracking-wide">
-                                Avec notre accompagnement, vous pourrez exprimer vos modes de communication, prendre conscience de votre environnement et identifier les ressources et compétences sur lesquelles vous pouvez vous appuyer. Nous chercherons à comprendre comment vos interactions influencent certaines difficultés, afin d’accompagner les changements dont vous avez besoin.
+                            Toute famille doit simultanément, préserver sa cohésion, son équilibre homéostatique, et favoriser l’autonomisation de chacun de ses membres. L'ensemble ou le système "famille" obéit à des règles de fonctionnement distinctes, des règles auxquelles obéissent chacun de ses membres pris isolément. 
+                            Autrement dit, les fonctions et comportements de chacun se trouvent liés aux comportements des autres membres de la famille (principes d’interdépendances).
+                            Sous la pression d’évènements plus ou moins prévisibles (naissances, décès, accidents, maladies invalidantes, handicaps, chômage…), ces règles fonctionnelles peuvent devenir dysfonctionnelles : des troubles du comportement, des difficultés psychiques s’installent. 
+                            Les familles bloquées dans un de ces cycles de vie, peuvent réagir par des protections symptomatiques (troubles de la personnalité, troubles du comportement, affections psychosomatiques…).<br/>
+                            <br/>Dans le cadre d’entretiens nous proposons :
                             </p>
                             <ul className="list-disc mx-6 sm:mx-12 md:mx-48 mb-10 text-base sm:text-lg text-justify leading-relaxed font-CocoGothic text-customBrown tracking-wide">
-                                <li>Votre famille rencontre des problèmes relationnels et des difficultés dans la communication.</li>
-                                <li>Votre famille traverse une période de "crise de vie" ou de "transitions familiale" ( divorce, remariage, recomposition familiale, arrivée d'un enfant ou d'un nouveau membre dans la famille, départ d'un ou des enfants...).</li>
-                                <li>Votre famille vit un évènement traumatique ( perte et deuil d'un membre de la famille, maladie, handicap, troubles psychiques affectant un ou plusieurs membres de la famille).</li>
-                                <li>Votre famille est confrontée à des difficultés de  santé mentale et/ou de dépendance ( trouble alimentaire, addiction, anxiété, troubles dépressifs...).</li>
-                                <li>Vous souhaitez mener une réflexion sur votre parentalité et vos modalités d'éducation ( conflits liés aux choix éducatifs, sentiment d'incompréhension générationnelle...).</li>
+                                <li>D’accueillir la famille et tout membre en demande de compréhension des enjeux relationnels.</li>
+                                <li>D’accompagner la famille dans l’expression de son fonctionnement familial.</li>
+                                <li>D’explorer le contexte et l’environnement de la famille.</li>
+                                <li>De repérer les ressources et les compétences.</li>
+                                <li>D’identifier comment les relations interindividuelles, au sein de la famille, agissent sur l’apparition ou la disparition des symptômes.</li>
+                                <li>D’identifier et accompagner les demandes de changement.</li>
                             </ul>
                         <div>
                             <Image src="/images/fille.jpg" width={600} height={500} alt="photo de thérapie de Famille" className="rounded-lg shadow-lg w-full" priority />
@@ -77,7 +82,14 @@ export default function Nostherapies() {
                                 <li>Accueillir le couple et sa demande.</li>
                                 <li>Offrir un espace de parole et d’élaboration avec pour objectif de mesurer les interactions relationnelles.</li>
                                 <li>Explorer le contexte et l’environnement du couple, son histoire, sa construction...</li>
-                                <li>Accompagner les demandes de changement en terme d’interactions relationnelles.</li>
+                                <li>Mettre en lumière les schémas relationnels (identifier les cycles répétitifs de communication, analyser les rôles joués par chacun dans ces cycles..)</li>
+                                <li>Restructurer la communication</li>
+                                <li>Travailler sur les croyances et les loyautés familiales</li>
+                                <li>Renforcement des ressources du couple</li>
+                                <li>Gestion des conflits et résolution de problèmes</li>
+                                <li>Intervention sur les frontières entre le couple, les enfants et les familles élargies</li>
+                                <li>Accompagner les demandes de changements</li>
+
                             </ul>
                         <div>
                             <Image src="/images/cabinet.webp" width={600} height={500} alt="photo de Thérapie de couple" className="rounded-lg shadow-lg w-full" priority />
